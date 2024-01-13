@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="https://i.imgur.com/fxUva9P.mp4" type="video/mp4">
+    </video>
+
+
+   
+
+    <div class="container">
+        <div class="title">Application Form</div> 
+        <img class="anonys" src="https://i.imgur.com/RETtH3g.png" alt="">
+        <form action="submitted.html" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your Full Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Enter your Valid Email Account" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="tel" placeholder="Enter your Phone Number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Valid ID</span>
+                    <input type="file" accept=".pdf, .doc, .docx" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Resume</span>
+                    <input type="file" accept=".pdf, .doc, .docx" required>
+                </div>
+               
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit Application">
+            </div>
+        </form>
+       
+    </div>
+</body>
+</html>
