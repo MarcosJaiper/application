@@ -32,7 +32,7 @@ body {
     max-width: 400px;
     width: 100%;
     background: #ffffffbd;
-    padding: 30px;
+    padding: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     border: solid;
@@ -68,7 +68,8 @@ input {
     margin-top: 20px;
 }
 
-input[type="submit"] {
+button[type="submit"] {
+    margin: auto;
     background: #4CAF50;
     color: #fff;
     padding: 10px 20px;
@@ -77,6 +78,10 @@ input[type="submit"] {
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
+position: absolute;
+top: 590px;
+right: 600px;
+
 }
 
 input[type="submit"]:hover {
@@ -89,7 +94,7 @@ input[type="submit"]:hover {
     height: 80px;
     width: 80px;
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 780px;
 }
 
